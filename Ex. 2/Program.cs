@@ -11,7 +11,7 @@ namespace Ex._2
             string[][] cuvinte = new string[30][];
        
             for(int i=0; i<cuvinte.GetLength(0); i++)
-           {
+            {
                 cuvinte[i] = new string[1];
             }
 
