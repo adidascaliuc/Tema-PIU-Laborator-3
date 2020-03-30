@@ -24,3 +24,16 @@ C:\Users\Adi\Desktop\PIU\Lab 3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.AssemblyInfo.
 C:\Users\Adi\Desktop\PIU\Lab 3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.dll
 C:\Users\Adi\Desktop\PIU\Lab 3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.pdb
 C:\Users\Adi\Desktop\PIU\Lab 3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.genruntimeconfig.cache
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\bin\Debug\netcoreapp3.1\Ex. 2.exe
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\bin\Debug\netcoreapp3.1\Ex. 2.deps.json
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\bin\Debug\netcoreapp3.1\Ex. 2.runtimeconfig.json
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\bin\Debug\netcoreapp3.1\Ex. 2.runtimeconfig.dev.json
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\bin\Debug\netcoreapp3.1\Ex. 2.dll
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\bin\Debug\netcoreapp3.1\Ex. 2.pdb
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.csprojAssemblyReference.cache
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.csproj.CoreCompileInputs.cache
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.AssemblyInfoInputs.cache
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.AssemblyInfo.cs
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.dll
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.pdb
+D:\GitHub\Tema-PIU-Laborator-3\Ex. 2\obj\Debug\netcoreapp3.1\Ex. 2.genruntimeconfig.cache

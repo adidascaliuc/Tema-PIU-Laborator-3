@@ -30,7 +30,7 @@ namespace Ex._2
                 }               
             }
 
-            int temp = 0;
+            
             for (int i = 0; i < cuvinte.Length; i++)
             {   
                 if( cuvinte[i][0] != null)
@@ -42,7 +42,7 @@ namespace Ex._2
                     {
                         Console.Write(cuvinte[i][j]);
                     }
-                    temp = j;
+                   
                 }
             }
         }
