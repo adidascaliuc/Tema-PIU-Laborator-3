@@ -1,6 +1,0 @@
-C:\Users\Adi\Desktop\PIU\Lab 3\EvidentaStudenti2\LibrarieEntitati\obj\Debug\LibrarieEntitati.csprojAssemblyReference.cache
-C:\Users\Adi\Desktop\PIU\Lab 3\EvidentaStudenti2\LibrarieEntitati\obj\Debug\LibrarieEntitati.csproj.CoreCompileInputs.cache
-C:\Users\Adi\Desktop\PIU\Lab 3\EvidentaStudenti2\LibrarieEntitati\bin\Debug\LibrarieEntitati.dll
-C:\Users\Adi\Desktop\PIU\Lab 3\EvidentaStudenti2\LibrarieEntitati\bin\Debug\LibrarieEntitati.pdb
-C:\Users\Adi\Desktop\PIU\Lab 3\EvidentaStudenti2\LibrarieEntitati\obj\Debug\LibrarieEntitati.dll
-C:\Users\Adi\Desktop\PIU\Lab 3\EvidentaStudenti2\LibrarieEntitati\obj\Debug\LibrarieEntitati.pdb
