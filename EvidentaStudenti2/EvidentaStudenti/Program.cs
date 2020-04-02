@@ -25,7 +25,40 @@ namespace ManagementStudenti
                         break;
 
                     case "t":
-                        s.SetNote();
+                        Console.WriteLine("Cate note doriti sa introduceti pentru anul 1: ");
+                        int n = Convert.ToInt32(Console.ReadLine());
+                        string note = "";
+
+                        for (int i = 0; i < n; i++)
+                        {
+                            note += Console.ReadLine() + " ";
+                        }
+                        note += " , ";
+
+                        Console.WriteLine("Cate note doriti sa introduceti pentru anul 2: ");
+                        n = Convert.ToInt32(Console.ReadLine());
+                        for (int i = 0; i < n; i++)
+                        {
+                            note += Console.ReadLine() + " ";
+                        }
+                        note += " , ";
+
+                        Console.WriteLine("Cate note doriti sa introduceti pentru anul 3: ");
+                        n = Convert.ToInt32(Console.ReadLine());
+                        for (int i = 0; i < n; i++)
+                        {
+                            note += Console.ReadLine() + " ";
+                        }
+                        note += " , ";
+
+                        Console.WriteLine("Cate note doriti sa introduceti pentru anul 4: ");
+                        n = Convert.ToInt32(Console.ReadLine());
+                        for (int i = 0; i < n; i++)
+                        {
+                            note += Console.ReadLine() + " ";
+                        }
+
+                        s.SetNote(note);
                         break;
 
                     case "c":

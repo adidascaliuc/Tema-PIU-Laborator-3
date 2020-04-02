@@ -19,42 +19,7 @@ namespace LibrarieEntitati
             nume = _nume;
         }
 
-        public void SetNote()
-        {
-            noteIntroduse= true;
 
-            note = new int[4,15];
-            
-
-            Console.WriteLine("Cate note doriti sa introduceti pentru anul 1: ");
-            int n = Convert.ToInt32(Console.ReadLine());
-
-            for(int i=0; i<n; i++)
-            {
-                note[0,i] = Convert.ToInt32(Console.ReadLine());
-            }
-
-            Console.WriteLine("Cate note doriti sa introduceti pentru anul 2: ");
-            n = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < n; i++)
-            {
-                note[1,i] = Convert.ToInt32(Console.ReadLine());
-            }
-
-            Console.WriteLine("Cate note doriti sa introduceti pentru anul 3: ");
-            n = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < n; i++)
-            {
-                note[2,i] = Convert.ToInt32(Console.ReadLine());
-            }
-
-            Console.WriteLine("Cate note doriti sa introduceti pentru anul 4: ");
-            n = Convert.ToInt32(Console.ReadLine());
-            for (int i = 0; i < n; i++)
-            {
-                note[3,i] = Convert.ToInt32(Console.ReadLine());
-            }
-        }
         public void SetNote(string sirNote)
         {
             noteIntroduse = true;
