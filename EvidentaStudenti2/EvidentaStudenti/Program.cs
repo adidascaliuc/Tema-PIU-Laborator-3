@@ -33,7 +33,7 @@ namespace ManagementStudenti
                         {
                             note += Console.ReadLine() + " ";
                         }
-                        note += " , ";
+                        note += ", ";
 
                         Console.WriteLine("Cate note doriti sa introduceti pentru anul 2: ");
                         n = Convert.ToInt32(Console.ReadLine());
@@ -41,7 +41,7 @@ namespace ManagementStudenti
                         {
                             note += Console.ReadLine() + " ";
                         }
-                        note += " , ";
+                        note += ", ";
 
                         Console.WriteLine("Cate note doriti sa introduceti pentru anul 3: ");
                         n = Convert.ToInt32(Console.ReadLine());
@@ -49,7 +49,7 @@ namespace ManagementStudenti
                         {
                             note += Console.ReadLine() + " ";
                         }
-                        note += " , ";
+                        note += ", ";
 
                         Console.WriteLine("Cate note doriti sa introduceti pentru anul 4: ");
                         n = Convert.ToInt32(Console.ReadLine());
