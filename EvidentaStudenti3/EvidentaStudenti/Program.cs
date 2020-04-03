@@ -21,13 +21,19 @@ namespace ManagementStudenti
                 switch (Console.ReadLine().ToLower())
                 {
                     case "s":
+                        string sir = Console.ReadLine();
+                        string[] date = sir.Split(',');
 
-                        s.SetNote(Console.ReadLine(), 15, 15, 15, 15);
+                        int an1 = date[0].Length / 2;
+                        int an2 = date[1].Length / 2;
+                        int an3 = date[2].Length / 2;
+                        int an4 = date[3].Length / 2;
+                        s.SetNote(sir, an1, an2, an3, an4);
                         break;
 
                     case "t":
                         Console.WriteLine("Cate note doriti sa introduceti pentru anul 1: ");
-                        int an1 = Convert.ToInt32(Console.ReadLine());
+                        an1 = Convert.ToInt32(Console.ReadLine());
                         string note = "";
 
                         for (int i = 0; i < an1; i++)
@@ -37,7 +43,7 @@ namespace ManagementStudenti
                         note += ", ";
 
                         Console.WriteLine("Cate note doriti sa introduceti pentru anul 2: ");
-                        int an2 = Convert.ToInt32(Console.ReadLine());
+                        an2 = Convert.ToInt32(Console.ReadLine());
                         for (int i = 0; i < an2; i++)
                         {
                             note += Console.ReadLine() + " ";
@@ -45,7 +51,7 @@ namespace ManagementStudenti
                         note += ", ";
 
                         Console.WriteLine("Cate note doriti sa introduceti pentru anul 3: ");
-                        int an3 = Convert.ToInt32(Console.ReadLine());
+                        an3 = Convert.ToInt32(Console.ReadLine());
                         for (int i = 0; i < an3; i++)
                         {
                             note += Console.ReadLine() + " ";
@@ -53,7 +59,7 @@ namespace ManagementStudenti
                         note += ", ";
 
                         Console.WriteLine("Cate note doriti sa introduceti pentru anul 4: ");
-                        int an4 = Convert.ToInt32(Console.ReadLine());
+                        an4 = Convert.ToInt32(Console.ReadLine());
                         for (int i = 0; i < an4; i++)
                         {
                             note += Console.ReadLine() + " ";
@@ -63,13 +69,22 @@ namespace ManagementStudenti
                         break;
 
                     case "c":
-                        string sir = "";
+                        sir = "";
 
-                        foreach (string nota in args)
-                        {
-                            sir += nota + " ";
-                        }
-                       s.SetNote(sir,15, 15, 15, 15);
+                        
+                       foreach (string nota in args)
+                       {
+                           sir += nota + " ";
+                       }
+                        
+                        date = sir.Split(',');
+
+                        an1 = date[0].Length / 2;
+                        an2 = date[1].Length / 2;
+                        an3 = date[2].Length / 2;
+                        an4 = date[3].Length / 2;
+
+                        s.SetNote(sir, an1, an2, an3, an4);
                         break;
 
                     case "a":
